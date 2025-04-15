@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(22,29,37,255);
+}
+#nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    text-align: center;
+    align-items: center;
+}
+#nav .nav-img{
+    width: 20%;
+    
+}
+#nav img{
+   width: 50%;
+   margin-left: -50%;
+}
+#nav .nav-links{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10%;
+    align-items: center;
+}
+ 
+ 
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-weight:  bold;
+}
+#nav a:hover{
+    color: rgb(255, 255, 255, 0.5);
+}
+#nav .nav-button{
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#nav button{
+    background-color: #f1c40f;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* hero section */
+#hero{
+    padding: 20px 40px;
+  
+    color: white;
+}
+#hero .heroimg img{
+    width: 100%;
+    height: 40px;
+    opacity: 0.5;
+}
+#hero .secondimg img{
+    width: 9%;
+    box-shadow: 1px 1px 20px black;
+}
+#hero .herotext{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.herotext h1{
+    font-size: 40px;
+    width: 10px;
+}
+.herotext p{
+    line-height: 30px;
+}
+.herotext .heroFirst button{
+padding: 20px 20px;
+background-color: #1f2631;
+border: 1px solid black;
+color: white;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+
+.card {
+    background-color: #e6f0ff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 100px 0px 0px 50px;
+
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cce0ff;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #3366cc;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .tab.active {
+    background-color: #b0d0ff;
+    color: #003399;
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+
+  .input-group select {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    background: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .input-group input {
+    border: none;
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+  }
+
+  .scan-btn {
+    width: 100%;
+    background-color: #f8c200;
+    color: #003366;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .scan-btn:hover {
+    background-color: #e6b800;
+  }
+
+  .content {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3366cc;
+  }
+
+ .herotext .footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #90aacc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.herotext select{
+    background-color: rgb(242, 239, 239);
+}
+  .footer a {
+    color: #3366cc;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+  .heroLinks {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #a7c2e3;
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin: 30px 0px 50px 0px;
+
+  }
+
+  .heroLinks a {
+    text-decoration: none;
+    color: #a7c2e3;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.2s;
+  }
+
+  .heroLinks a:hover {
+    color: #ffffff;
+  }
+.heroDownImg {
+    width: 100%;
+}
+  .heroDownImg img{
+    
+    width: 1005;
+  }
+ 

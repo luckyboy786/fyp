@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <section id="nav">
+        <div class="nav-img">
+            <img src="pentesttools-logo.png" alt="">
+        </div>
+        <div class="nav-links">
+            <div><a href="">Tools <span>&#9662;</span> </a></div>
+            <div><a href="">Features<span>&#9662;</span> </a></div>
+            <div><a href="">Pricing<span>&#9662;</span> </a></div>
+            <div><a href="">Services<span>&#9662;</span> </a></div>
+            <div><a href="">Resources<span>&#9662;</span> </a></div>
+            <div><a href="">Company<span>&#9662;</span> </a></div>
+        </div>
+        <div class="nav-button">
+            <div>
+            <a href="">Login</a>
+
+            </div>
+            <button type="button">Free sign up</button>
+        </div>
+    </section>
+    <section id="hero">
+        <div class="heroimg">
+            <img src="download.svg" alt="">
+        </div>
+        <div class="secondimg">
+            <img src="heroimg.svg" alt="">
+        </div>
+        <div class="herotext">
+            <div class="heroFirst">
+                <h1>Website Vulnerability Scanner</h1>
+                <p>
+                    Our custom-built Website Vulnerability Scanner detects SQLi, XSS, command injection, XXE, and 75+ more web app vulnerabilities, using strategically crafted test payloads to validate their exploitability.
+                </p>
+                <p>
+                    Engineered to handle modern web app architectures, it efficiently crawls SPAs and other JavaScript-heavy websites, detects hidden API endpoints, and navigates complex authentication flows.
+                </p>
+                <p>
+                    Export findings into customizable reports - complete with risk prioritization, actionable evidence (screenshots, attack replay, HTTP request/response), and clear remediation steps to speed up the fixes that make a difference.
+                </p>
+
+                <div class="herobtn">
+                    <button>Create free account</button>
+                </div>
+            </div>
+            <div class="heroScan">
+                <div class="card">
+                    <!-- Tabs -->
+                    <div class="tabs">
+                      <div class="tab active" onclick="showContent(0)">Light scan</div>
+                      <div class="tab" onclick="showContent(1)">Deep scan</div>
+                      <div class="tab" onclick="showContent(2)">CLI scan</div>
+                    </div>
+                  
+                    <!-- Input and Select -->
+                    <label style="margin-top: 15px; display: block; font-weight: bold; color: #3366cc;">Target</label>
+                    <div class="input-group">
+                      <select>
+                        <option>HTTPS<span>&#9662;</span></option>
+                        <option>HTTP</option>
+                      </select>
+                      <input type="text" placeholder="www.example.com">
+                    </div>
+                  
+                    <!-- Button -->
+                    <button class="scan-btn">
+                      ▶ Start scan
+                    </button>
+                  
+                  
+                  
+                    <!-- Footer Message -->
+                    <div class="footer">
+                      <span>A light scan with the Website Vulnerability Scanner runs...</span>
+                      <a href="#">SEE MORE &#9662;</a>
+                    </div>
+                  </div>
+                  
+            </div>
+
+        </div>
+      
+<div class="heroLinks">
+    <a href="#"><i class="fas fa-chart-bar"></i> Full sample report</a>
+    <a href="#"><i class="fas fa-chart-pie"></i> How it works</a>
+    <a href="#"><i class="fas fa-signal"></i> Benchmark</a>
+    <a href="#">Tool docs <i class="fas fa-arrow-up-right-from-square"></i></a>
+    <a href="#">API <i class="fas fa-arrow-up-right-from-square"></i></a>
+  </div>
+  <div class="heroimg lastImg">
+    <img src="download.svg" alt="">
+</div>
+    </section>
+
+
+
+
+    <script src="app.js" ></script>
+</body>
+</html>
